@@ -25,7 +25,7 @@ def bon():
         record=score
     with open('variables.txt', 'w') as file:
         file.write(f"{score}\n")
-        file.write(f"{score}\n")
+        file.write(f"{record}\n")
     print(f"c'est la bonne réponce, votre score est de : {score}")
     print(f"votre record est {record}")
     feu.destroy()
@@ -520,7 +520,7 @@ def ree():
     score=0
     with open('variables.txt', 'w') as file:
         file.write(f"{score}\n")
-        file.write(f"{score}\n")
+        file.write(f"{record}\n")
     fau.destroy()
     v = random.randint(1, 240)
     if v == 1:
